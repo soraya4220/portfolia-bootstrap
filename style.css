@@ -1,0 +1,17 @@
+.active{
+    color: orange!important;
+}
+.navbar {
+    z-index: 100;
+}
+.nav-link:hover{
+    color: orange!important;
+}
+.top-banner{
+    height: 700px;
+}
+.img-banner{
+    background: url(images/hero-bg.jpg) no-repeat right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
