@@ -1,0 +1,55 @@
+@font-face {
+  font-family: gandom;
+  src: url(../assets/font/gandom/Gandom.ttf),
+       url(../assets/font/gandom/Gandom.eot),
+       url(../assets/font/gandom/Gandom.woff);
+}
+@font-face {
+  font-family: latin;
+  src: url(../assets/font/latin/OoohBaby-Regular.ttf),
+    url(../assets/font/latin/OFL.txt);
+}
+.active {
+  color: orange !important;
+}
+.navbar {
+  z-index: 100;
+}
+.nav-link:hover {
+  color: orange !important;
+}
+.top-banner {
+  height: 700px;
+}
+.img-banner {
+  background: url(../assets/images/hero-bg.jpg) no-repeat right top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text1 {
+  font-size: 40pt;
+  font-family: latin;
+}
+.text2 {
+  margin-top: 100px;
+  margin-right: 340px;
+}
+.about1{
+  transform: scale(4);
+  margin-top: 20px;
+  color: gray;
+}
+.about2{
+  transform: scale(2);
+  z-index: 100;
+}
+/* .section-title p{
+  position: relative;
+  z-index: 2;
+} */
+.img-banner2{
+  background:url(../assets/images/me.jpg)left bottom no-repeat  ;
+  background-size: cover;
+  min-height: 1900px;
+  
+}
