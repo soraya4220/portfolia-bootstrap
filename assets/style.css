@@ -1,13 +1,22 @@
-@font-face {
-  font-family: gandom;
-  src: url(../assets/font/gandom/Gandom.ttf),
-       url(../assets/font/gandom/Gandom.eot),
-       url(../assets/font/gandom/Gandom.woff);
-}
+
 @font-face {
   font-family: latin;
   src: url(../assets/font/latin/OoohBaby-Regular.ttf),
     url(../assets/font/latin/OFL.txt);
+}
+@font-face{
+  font-family: domine;
+  src: url(../assets/font/domine/Domine-VariableFont_wght.ttf),
+       url(../assets/font/domine/OFL.txt);
+}
+body {
+  margin: 0px;
+  direction: ltr;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .active {
   color: orange !important;
@@ -21,8 +30,8 @@
 .top-banner {
   height: 700px;
 }
-.img-banner {
-  background: url(../assets/images/hero-bg.jpg) no-repeat right top;
+.img-banner{
+  background: url(../assets/images/hero-bg.jpg) no-repeat top right;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -33,23 +42,61 @@
 .text2 {
   margin-top: 100px;
   margin-right: 340px;
+  font-family: domine;
 }
 .about1{
-  transform: scale(4);
+  transform: scale(3);
   margin-top: 20px;
-  color: gray;
+  font-family: domine;
+  color: #ebe0e0;
+  margin-top: 80px;
 }
 .about2{
   transform: scale(2);
-  z-index: 100;
+  font-family: domine;
+  top: 180px;
 }
-/* .section-title p{
-  position: relative;
-  z-index: 2;
-} */
-.img-banner2{
-  background:url(../assets/images/me.jpg)left bottom no-repeat  ;
-  background-size: cover;
-  min-height: 1900px;
-  
+.title1 P{
+  font-family: domine;
+  margin-top: 40PX;
+}
+.banner2{
+  margin-left: 140px;
+  margin-top: 40px;
+  opacity: 50%;
+  transition: opacity 2s;
+}
+.banner2:hover{
+  opacity:90%;
+}
+.about-me1{
+  font-family: domine;
+}
+.about-me2{
+  margin-left: 550px;
+  font-family: domine;
+}
+.name{
+  margin-top: 20px;
+}
+.name:hover{
+  transform: scale(1.2);
+}
+.fa-smile,.fa-clock,.fa-book,.fa-award{
+transform: rotate(0);
+font-size: 20pt;
+  color: rgb(138, 150, 223);
+  padding-top: 30px;
+}
+.fa-smile:hover{
+  transform: rotate(20deg);
+}
+.fa-clock:hover{
+  transform: rotate(20deg);
+}
+.fa-book:hover{
+  transform: rotate(20deg);
+}
+.fa-award:hover{
+  transform: rotate(20deg);
 }
