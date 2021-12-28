@@ -31,17 +31,15 @@ ul{
   height: 700px;
 }
 .img-banner{
-  background: url(../assets/images/hero-bg.jpg) no-repeat top right;
+  background: url(../assets/images/hero-bg.jpg) no-repeat right top;
   background-size: cover;
   background-attachment: fixed;
 }
 .text1 {
-  font-size: 40pt;
   font-family: latin;
+  margin-left: 145px;
 }
 .text2 {
-  margin-top: 100px;
-  margin-right: 340px;
   font-family: domine;
 }
 .about1{
@@ -49,23 +47,22 @@ ul{
   margin-top: 75px;
   font-family: domine;
   color: #ebe0e0;
-  
 }
 .about2{
   transform: scale(2);
   font-family: domine;
   top: 22px;
 }
-/* .middle-main{
-  width: 100vh;
-} */
-.title1 P{
+.title-1 P{
   font-family: domine;
   margin-top: 40PX;
+  font-size: 10pt;
 }
 .banner2{
-  margin-left: 140px;
+  margin-left: 150px;
   margin-top: 40px;
+  width: 350px;
+  height: 550px;
   opacity: 50%;
   transition: opacity 2s;
 }
@@ -74,21 +71,22 @@ ul{
 }
 .about-me1{
   font-family: domine;
+  margin-left: 50px;
 }
 .about-me2{
-  margin-left: 550px;
   font-family: domine;
 }
 .name{
   margin-top: 36px;
+  font-size: 12pt; 
 }
 .name:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .fa-smile,.fa-clock,.fa-book,.fa-award{
 transform: rotate(0);
-font-size: 20pt;
-  color: rgb(138, 150, 223);
+font-size: 30px;
+  color: rgba(66, 77, 57, 0.753);
   padding-top: 30px;
 }
 .fa-smile:hover{
@@ -102,4 +100,11 @@ font-size: 20pt;
 }
 .fa-award:hover{
   transform: rotate(20deg);
+}
+.text{
+  font-size: 10pt;
+  font-family: domine;
+}
+.number{
+  font-size: 20pt;
 }
