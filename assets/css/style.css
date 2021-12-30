@@ -40,23 +40,29 @@
 .title-1 P{
   font-family: domine;
   margin-top: 40PX;
-  font-size: 10pt;
+  font-size: 12pt;
 }
+
 .banner2{
   width: 350px;
   height: 550px;
-  /* opacity: 50%; */
-  /* transition: opacity 2s; */
+  opacity: 50%;
+  transition: opacity 2s;
 }
+/* .banner2{
+  background: url(../images/me.jpg) center center no-repeat;
+  background-size: cover;
+  min-height: 500px;
+} */
 .banner2:hover{
-  /* opacity:90%; */
+  opacity:90%;
 }
 .about-me1,.about-me2{
   font-family: domine;
 }
 .name{
-  margin-top: 20px;
-  font-size: 12pt; 
+  /* margin-top: 20px; */
+  font-size: 15pt; 
 }
 .name:hover{
   transform: scale(1.1);
@@ -80,7 +86,7 @@ font-size: 30px;
   transform: rotate(20deg);
 }
 .text{
-  font-size: 10pt;
+  font-size: 12pt;
   font-family: domine;
 }
 .number{
