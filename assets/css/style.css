@@ -22,20 +22,17 @@
 }
 .text1 {
   font-family: latin;
-  margin-left: 145px;
 }
 .text2 {
   font-family: domine;
 }
 .about1{
-  /* transform: scale(3); */
   font-size: 25pt;
   margin-top: 75px;
   font-family: domine;
   color: #ebe0e0;
 }
 .about2{
-  /* transform: scale(2); */
   font-size: 20pt;
   font-family: domine;
   top: 22px;
@@ -46,25 +43,19 @@
   font-size: 10pt;
 }
 .banner2{
-  margin-left: 150px;
-  margin-top: 40px;
   width: 350px;
   height: 550px;
-  opacity: 50%;
-  transition: opacity 2s;
+  /* opacity: 50%; */
+  /* transition: opacity 2s; */
 }
 .banner2:hover{
-  opacity:90%;
+  /* opacity:90%; */
 }
-.about-me1{
-  font-family: domine;
-  margin-left: 50px;
-}
-.about-me2{
+.about-me1,.about-me2{
   font-family: domine;
 }
 .name{
-  margin-top: 36px;
+  margin-top: 20px;
   font-size: 12pt; 
 }
 .name:hover{
@@ -73,7 +64,7 @@
 .fa-smile,.fa-clock,.fa-book,.fa-award{
 transform: rotate(0);
 font-size: 30px;
-  color: rgba(66, 77, 57, 0.753);
+  color: rgba(245, 124, 108, 0.897);
   padding-top: 30px;
 }
 .fa-smile:hover{

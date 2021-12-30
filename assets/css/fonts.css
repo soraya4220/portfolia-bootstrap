@@ -1,10 +1,10 @@
 @font-face {
     font-family: latin;
-    src: url(../assets/font/latin/OoohBaby-Regular.ttf),
+    src: url(../font/latin/OoohBaby-Regular.ttf),
       url(../assets/font/latin/OFL.txt);
   }
   @font-face{
     font-family: domine;
-    src: url(../assets/font/domine/Domine-VariableFont_wght.ttf),
+    src: url(../font/domine/Domine-VariableFont_wght.ttf),
          url(../assets/font/domine/OFL.txt);
   }
