@@ -1,0 +1,12 @@
+/* @keyframes scale{
+    from{ transform: scale(0);}
+    to{ transform: scale(1.5deg);}
+  } */
+  @keyframes banner2{
+    from{ opacity: 50%;}
+    to{ opacity: 100%;}
+  }
+  @keyframes icon {
+    from{ transform: rotate(0);color:rgba(160, 228, 121, 0.897) ;}
+    to{ transform: rotate(360deg);color: rgba(0, 246, 234, 0.959);}
+  }

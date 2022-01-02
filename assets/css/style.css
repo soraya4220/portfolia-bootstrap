@@ -2,6 +2,9 @@
 @import url("../fontawsome-5/css/all.min.css");
 @import url("fonts.css");
 @import url("reset.css");
+@import url(animation.css);
+@import url(animate.min.css);
+
 
 .active {
   color: orange !important;
@@ -22,9 +25,12 @@
 }
 .text1 {
   font-family: latin;
+  /* animation: scale 3s linear infinite alternate; */
 }
+
 .text2 {
   font-family: domine;
+  animation: width 4s linear  2s infinite alternate;
 }
 .about1{
   font-size: 25pt;
@@ -42,23 +48,24 @@
   margin-top: 40PX;
   font-size: 12pt;
 }
-
 .banner2{
   width: 350px;
   height: 550px;
   opacity: 50%;
-  transition: opacity 2s;
+  /* transition: opacity 2s; */
+  animation:banner2 3s linear infinite alternate ;
 }
-/* .banner2{
+
+.banner2{
   background: url(../images/me.jpg) center center no-repeat;
   background-size: cover;
   min-height: 500px;
-} */
-.banner2:hover{
-  opacity:90%;
 }
+/* .banner2:hover{
+  opacity:90%;
+} */
 .about-me1,.about-me2{
-  font-family: domine;
+  /* font-family: domine; */
 }
 .name{
   /* margin-top: 20px; */
@@ -67,23 +74,10 @@
 .name:hover{
   transform: scale(1.1);
 }
-.fa-smile,.fa-clock,.fa-book,.fa-award{
-transform: rotate(0);
+.icon{
 font-size: 30px;
-  color: rgba(245, 124, 108, 0.897);
-  padding-top: 30px;
-}
-.fa-smile:hover{
-  transform: rotate(20deg);
-}
-.fa-clock:hover{
-  transform: rotate(20deg);
-}
-.fa-book:hover{
-  transform: rotate(20deg);
-}
-.fa-award:hover{
-  transform: rotate(20deg);
+  color: rgba(42, 172, 189, 0.897);
+  animation: icon 3s linear 1s infinite ;
 }
 .text{
   font-size: 12pt;
@@ -91,4 +85,14 @@ font-size: 30px;
 }
 .number{
   font-size: 20pt;
+
+}
+.progress{
+  margin-top: 15px;
+}
+.skills{
+  margin-top: 60px;
+}
+.skill1-4{
+ 
 }
