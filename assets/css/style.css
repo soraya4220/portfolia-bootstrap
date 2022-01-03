@@ -46,11 +46,11 @@
 .title-1 P{
   font-family: domine;
   margin-top: 40PX;
-  font-size: 12pt;
+  font-size: 15pt;
 }
 .banner2{
   width: 350px;
-  height: 550px;
+  height: 650px;
   opacity: 50%;
   /* transition: opacity 2s; */
   animation:banner2 3s linear infinite alternate ;
@@ -80,7 +80,7 @@ font-size: 30px;
   animation: icon 3s linear 1s infinite ;
 }
 .text{
-  font-size: 12pt;
+  font-size: 15pt;
   font-family: domine;
 }
 .number{
@@ -88,10 +88,10 @@ font-size: 30px;
 
 }
 .progress{
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .skills{
-  margin-top: 60px;
+  margin-top: 10px;
 }
 .skill1-4{
  
