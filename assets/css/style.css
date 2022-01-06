@@ -33,7 +33,7 @@
   animation: width 4s linear  2s infinite alternate;
 }
 .about1{
-  font-size: 25pt;
+  font-size: 30pt;
   margin-top: 75px;
   font-family: domine;
   color: #ebe0e0;
@@ -94,6 +94,10 @@ font-size: 30px;
 .skills{
   margin-top: 10px;
 }
-.skill1-4{
- 
+.title{
+  border-left: 2px solid #000;
+  
+}
+.my-resume{
+  padding: 60px 0;
 }
