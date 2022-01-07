@@ -27,7 +27,6 @@
   font-family: latin;
   /* animation: scale 3s linear infinite alternate; */
 }
-
 .text2 {
   font-family: domine;
   animation: width 4s linear  2s infinite alternate;
@@ -46,16 +45,16 @@
 .title-1 P{
   font-family: domine;
   margin-top: 40PX;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 .banner2{
-  width: 350px;
-  height: 650px;
+  width: 290px;
+  height:635px;
   opacity: 50%;
+ 
   /* transition: opacity 2s; */
   animation:banner2 3s linear infinite alternate ;
 }
-
 .banner2{
   background: url(../images/me.jpg) center center no-repeat;
   background-size: cover;
@@ -67,26 +66,27 @@
 .about-me1,.about-me2{
   /* font-family: domine; */
 }
-.name{
-  /* margin-top: 20px; */
-  font-size: 15pt; 
-  font-family: domine;
-}
+
 .name:hover{
   transform: scale(1.1);
 }
 .icon{
-font-size: 30px;
+font-size: 40px;
   color: rgba(42, 172, 189, 0.897);
   animation: icon 3s linear 1s infinite ;
+
 }
-.text{
-  font-size: 15pt;
+.text {
+  font-size: 12pt;
   font-family: domine;
 }
 .number{
-  font-size: 20pt;
-
+  font-size: 40pt;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.topic{
+  margin-top: 20px;
 }
 .progress{
   margin-top: 5px;
@@ -94,10 +94,25 @@ font-size: 30px;
 .skills{
   margin-top: 10px;
 }
-.title{
-  border-left: 2px solid #000;
-  
+.resume-1, .resume-3, .resume-4{
+  /* border-left: 2px solid rgba(126, 122, 122, 0.472);  */
+  font-size: 12pt;
+  font-family: domine;
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
 }
+/* .man{
+  border-left: 2px solid #82909c;
+} */
 .my-resume{
   padding: 60px 0;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen {
+  
 }
