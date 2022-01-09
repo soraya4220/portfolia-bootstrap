@@ -119,72 +119,107 @@ font-size: 40px;
 .nav-pills .nav-link{
   border: 2px solid #fff;
 }
+.tab-pane .row>div{
+  overflow: hidden;
+  transition: transform 3s ;
+}
+.portfolio-banner{
+  transform: scale(1);
+  
+}
+
 .portfolio-banner-1{
   background: url(../images/portfolio-1.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 361px
+  height: 361px;
+  margin-top: 15px;
   
 }
 .portfolio-banner-2{
   background: url(../images/portfolio-2.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 239px
+  height: 361px;
+  margin-top: 15px;
   
 }
 .portfolio-banner-3{
   background: url(../images/portfolio-3.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 200px
+  height: 361px;
+  margin-top: 15px;
   
 }
 .portfolio-banner-4{
   background: url(../images/portfolio-4.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 529px;
-  margin-top: 30px;
+  height: 361px;
+  margin-top: 15px;
   
 }
 .portfolio-banner-5{
   background: url(../images/portfolio-5.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 532px
+  height: 361px;
+  margin-top: 15px;
   
 }
 .portfolio-banner-6{
   background: url(../images/portfolio-6.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 235px;
+  height: 361px;
+  margin-top: 15px;
 }
 .portfolio-banner-7{
   background: url(../images/portfolio-7.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 231px;
-  margin-top: 30px;
+  height: 361px;
+  margin-top: 15px;
 }
 .portfolio-banner-8{
   background: url(../images/portfolio-8.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 236px;
+  height: 361px;
+  margin-top: 15px;
 }
 .portfolio-banner-9{
   background: url(../images/portfolio-9.jpg) no-repeat ;
   background-size: cover;
   width: 356px;
-  height: 237px;
+  height: 361px;
+  margin-top: 15px;
 }
+
+.tab-pane .row>div:hover{
+  padding: 0;
+}
+.tab-pane .row>div:hover .portfolio-banner{
+  transform: scale(1.3);
+}
+
 
 
 .icon-portfolio{
   color: orange;
   border-radius: 50%;
+  font-size: 30pt;
+  width: 72px;
+  height: 72px;
+  background: #fff4df;
+  text-align: center;
+      margin: 0 auto 20px auto;
+    padding-top: 17px;
+    display: inline-block;
+}
+.icon-box:hover{
+  border: 1px solid orange;
 }
 .icon-box{
   padding: 30px;
