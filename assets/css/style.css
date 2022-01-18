@@ -45,8 +45,9 @@
 }
 .title-1 P{
   font-family: domine;
-  margin-top: 40PX;
+  margin-top: 6PX;
   font-size: 12pt;
+  margin-left: 10px;
 }
 .banner2{
   width: 290px;
@@ -97,7 +98,16 @@ font-size: 40px;
 }
 .resume-1,.resume-2,.resume-3{
   border-left: 2px solid #82909c;
-  
+  margin-left: 10px; 
+}
+.resume-2 h5{
+  margin-left: 10px;
+}
+.resume-3 h5 , .resume-3 ul{
+  margin-left: 10px;
+}
+.resume-3 li{
+  margin-top: 10px;
 }
 .circle{
   background: #fff;
@@ -130,6 +140,19 @@ font-size: 40px;
 }
 .topics{
   color: orange;
+  margin-left: 10px;
+}
+.graphic{
+  margin-top: 25px;
+}
+.sumary ul, .resume-3 ul {
+  list-style-type:circle;
+  margin-left: 27px;
+}
+.year{
+  background: #eef0f2;
+  display: inline-block;
+  font-size: 16px;
 }
 .nav-pills .nav-link{
   border: 2px solid #fff;
@@ -138,6 +161,13 @@ font-size: 40px;
   overflow: hidden;
   
 }
+.indicators{
+  border-radius: 50px;
+  width: 16px;
+    height: 16px;
+    background: rgb(172, 31, 31);
+}
+
 .portfolio-banner{
   transform: scale(1);
   transition: transform 3s ;
