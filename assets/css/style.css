@@ -32,6 +32,11 @@
   font-family: domine;
   animation: width 4s linear  2s infinite alternate;
 }
+.chevron{
+  font-size: 25pt;
+  color: #ebe3e3a4;
+  margin-top: 130px;
+} 
 .about1{
   font-size: 30pt;
   margin-top: 75px;
@@ -177,7 +182,6 @@ font-size: 40px;
 .portfolio-banner-7,.portfolio-banner-8,.portfolio-banner-9{
   width: 356px;
   height: 361px;
-  /* margin-top: 15px; */
 }
 .portfolio-banner-1{
   background: url(../images/portfolio-1.jpg) no-repeat ;
@@ -237,8 +241,8 @@ font-size: 40px;
 .icon-box:hover a{
 color: orange;
 }
-.icon-box{
-  padding: 30px;
+.icon-box , .pricing-box{
+  padding: 32px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -248,13 +252,55 @@ color: orange;
   border: 1px solid #fff;
   /* border-color: #ffb727; */
 }
-#pills-ALL-tab{
- 
-}
 #pills-ALL-tab,#pills-APP-tab,#pills-CARD-tab,#pills-WEB-tab{
   /* border-color: orange; */
   background-color:white;
   color: black;
+}
+.underline{
+  text-decoration: line-through;
+  color: #ccc;
+}
+.btn-buy{
+  background: #ffb727;
+  display: inline-block;
+  padding: 8px 35px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family:domine ;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn-buy:hover{
+  color: #fff;
+  opacity: 80%;
+}
+.btn{
+  background: #f8f8f8;
+  text-align: center;
+}
+.Advanced{
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #ffb727;
+  color: #fff;
+}
+.topics-pricing{
+  margin: -31px -31px 31px -31px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777777;
+  background: #f8f8f8;
 }
 
 
