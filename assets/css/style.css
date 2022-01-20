@@ -302,7 +302,10 @@ color: orange;
   color: #777777;
   background: #f8f8f8;
 }
-
+.slide{
+  border-radius: 50px;
+  margin-bottom: 300px;
+} 
 
 
 
