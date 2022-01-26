@@ -306,6 +306,15 @@ color: orange;
   border-radius: 50px;
   margin-bottom: 300px;
 } 
-
-
+h5{
+  font-weight: bold;
+  color: #fff;
+}
+.img-footer{
+  opacity: 50%;
+  position: relative;
+}
+.name{
+  position: absolute;
+}
 
